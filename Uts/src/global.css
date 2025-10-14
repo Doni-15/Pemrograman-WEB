@@ -1,0 +1,28 @@
+:root{
+    --warna-k-1 : #fabf52;
+    --warna-k-2 : #D4AF37;
+
+    --warna-header : linear-gradient(to right, var(--warna-k-1), var(--warna-k-2));
+    
+    --warna-1 : #003366;
+    --warna-2 : #175b91;
+    --warna-3 : #40b0bf;
+    --warna-4 : #71C9CE;
+
+    --warna_main : linear-gradient(to bottom, var(--warna-2), var(--warna-3), var(--warna-4));
+}
+
+*,
+html,
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background: var(--warna-header);
+}
+
+main{
+    background: var(--warna_main);
+}

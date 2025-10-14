@@ -1,0 +1,24 @@
+@import "./global.css";
+
+@import "tailwindcss";
+@layer components{
+    h1{
+        @apply text-center font-bold pb-2 text-xl
+    }
+
+    header{
+        @apply h-16 px-10 text-2xl flex flex-row gap-5 w-screen items-center justify-between font-bold fixed
+    }
+
+    footer{
+        @apply  w-screen
+    }
+
+    .section{
+        @apply text-2xl flex flex-row gap-5 items-center justify-between font-bold
+    }
+
+    .card_pilihan{
+        @apply flex flex-col w-96 rounded-xl py-10 px-5 h-auto border-2 border-transparent shadow-[0_0_10px_rgba(0,0,0,0.5)] hover:border-white
+    }
+}
